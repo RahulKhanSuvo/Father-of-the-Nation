@@ -1,0 +1,35 @@
+*{margin: 0px;
+    padding: auto;
+    box-sizing: content-box;
+    }
+    body{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: black;
+        color: azure;
+    }
+    .header{padding: 19px;
+        margin: 15px auto;
+        text-align: center;
+    }
+    .title{margin-bottom: 20px;}
+    .tribute{
+        display: grid;
+        grid-template-columns:2fr 1fr;
+     background-color: aliceblue;
+     align-items: center;
+     padding: 0px 0px 0px 15px;
+     margin: 0px auto;
+     color: black;
+    }
+    .tribute blockquote {
+        text-align: center;
+        font-size: 40px;
+    }
+    h2{
+        margin-bottom: 15px;
+    }
+    
+    p{
+        font-size: 18px;
+        line-height: 1.3;
+    }
